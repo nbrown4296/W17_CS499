@@ -1,0 +1,1 @@
+Run the command 'node main.js' and then send an http request to http://127.0.0.1:8081 this is assuming nodejs is installed on your local machine
