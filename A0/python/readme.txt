@@ -1,0 +1,1 @@
+To run the program use the command 'python HelloWorld.py', this particular code is in python 2.7
