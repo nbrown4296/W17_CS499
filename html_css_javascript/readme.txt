@@ -1,1 +1,0 @@
-To run just open the file HelloWorld.html in a browser.

@@ -1,1 +1,0 @@
-To compile the source code file HelloWorld.java run the command 'javac HelloWorld.java', then run the command 'java HelloWorld' to execute the bytecode. Of course you might need to link java if they are not already done so.
