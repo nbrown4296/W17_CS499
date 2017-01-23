@@ -1,0 +1,20 @@
+{
+  "name": "cs499",
+  "version": "1.0.0",
+  "description": "screenshot service",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.7.25",
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "sharp": "^0.17.1",
+    "uuid": "^3.0.1",
+    "webshot": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
