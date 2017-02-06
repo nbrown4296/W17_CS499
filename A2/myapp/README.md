@@ -1,6 +1,16 @@
 # myapp
 This application was generated using JHipster 4.0.1, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v4.0.1](https://jhipster.github.io/documentation-archive/v4.0.1).
 
+# CS499 A2
+
+This app has 3 entities: Author (String name), Book (string title, int pages, string genre, string author), and ToC (table of contents) (int chapters, book title). The relationships are the following:
+-Author to Book is a one-to-many relationship
+-ToC to Book is a one-to-one relationship (its supposed to, I accidently didn't do this in the setup)
+-A Book must have an author and a ToC must have a Book
+-ToC has no relation to Author
+
+Note: The colum 'pages' for ToC is supposed to be the book it belongs to.
+
 ## Development
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
