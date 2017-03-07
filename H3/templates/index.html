@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Magic Predictor</title>
+</head>
+<body>
+    <h3>Prediction: </h3>
+    <form action="/predict">
+        Road ID:<br>
+        <input type="int" name="id"><br>
+        Direction:<br>
+        <input type="int" name="dir"><br>
+        Day:<br>
+        <input type="int" name="day"><br>
+        Time:<br>
+        <input type="int" name="time"><br>
+        <br>
+      <input type="submit" value="Submit">
+    </form>
+    <br>
+    <h3>Insert Data Point:</h3>
+    <form action="/insert">
+        Road ID:<br>
+        <input type="int" name="id"><br>
+        Direction:<br>
+        <input type="int" name="dir"><br>
+        Day:<br>
+        <input type="int" name="day"><br>
+        Time:<br>
+        <input type="int" name="time"><br>
+        Traffic Value:<br>
+        <input type="int" name="tval"><br>
+        <br>
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
